@@ -4,7 +4,23 @@ using System.Text;
 
 namespace uchospital
 {
-    class Janitor
+    public class Janitor
     {
+        public int Salary {get; set;}
+    
     }
-}
+
+    public Janitor()
+    {
+        int Salary = 40000;
+    }
+    
+        
+
+    
+
+
+
+
+
+}     

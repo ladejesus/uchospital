@@ -6,5 +6,8 @@ namespace uchospital
 {
     class Receptionist
     {
+        public int Salary { get; set; }
+        public string Task { get; set: }
+
     }
 }
