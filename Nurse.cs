@@ -4,7 +4,30 @@ using System.Text;
 
 namespace uchospital
 {
-    class Nurse
+    public class Nurse
     {
+        public int Salary { get; set; }
+        public int Patients { get; set; }
+        public string Task { get; set; }
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
