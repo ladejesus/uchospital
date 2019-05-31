@@ -4,10 +4,18 @@ using System.Text;
 
 namespace uchospital
 {
-    class Receptionist
+    public class Receptionist
     {
         public int Salary { get; set; }
-        public string Task { get; set: }
+        public string Task { get; set; }
+
+        public Receptionist(int salary, string task)
+        {
+            Salary = salary;
+            Task = task;
+        }
+            
+
 
     }
 }

@@ -6,7 +6,7 @@ namespace uchospital
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Main menu = new menu()
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\LuisPC\source\repos\uchospital\uchospital\bin\Debug\netcoreapp2.1\uchospital.deps.json
+C:\Users\LuisPC\source\repos\uchospital\uchospital\bin\Debug\netcoreapp2.1\uchospital.runtimeconfig.json
+C:\Users\LuisPC\source\repos\uchospital\uchospital\bin\Debug\netcoreapp2.1\uchospital.runtimeconfig.dev.json
+C:\Users\LuisPC\source\repos\uchospital\uchospital\bin\Debug\netcoreapp2.1\uchospital.dll
+C:\Users\LuisPC\source\repos\uchospital\uchospital\bin\Debug\netcoreapp2.1\uchospital.pdb
+C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.csprojAssemblyReference.cache
+C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.csproj.CoreCompileInputs.cache
+C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.AssemblyInfoInputs.cache
+C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.AssemblyInfo.cs
+C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.dll
+C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.pdb

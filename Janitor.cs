@@ -7,17 +7,29 @@ namespace uchospital
     public class Janitor
     {
         public int Salary {get; set;}
+        public string Task { get; set; }
     
+
+        public Janitor(int salary, string task)
+        {
+            Salary = salary;
+            Task = task;
+        }
+
+
+
     }
 
-    public Janitor()
-    {
-        int Salary = 40000;
-    }
     
+
+
         
+    
 
     
+
+
+
 
 
 
