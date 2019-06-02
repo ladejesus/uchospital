@@ -4,7 +4,7 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Doctor:Employer
+    public class Doctor
     {
         public string Specialty { get; set; }
         public string Task { get; set; }
