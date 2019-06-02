@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LuisPC\\.nuget\\packages\\": {},
+    "C:\\Users\\WeCanCodeIT\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisPC\\source\\repos\\uchospital\\uchospital\\uchospital.csproj",
+      "projectUniqueName": "C:\\Users\\WeCanCodeIT\\source\\repos\\uchospital\\uchospital.csproj",
       "projectName": "uchospital",
-      "projectPath": "C:\\Users\\LuisPC\\source\\repos\\uchospital\\uchospital\\uchospital.csproj",
-      "packagesPath": "C:\\Users\\LuisPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisPC\\source\\repos\\uchospital\\uchospital\\obj\\",
+      "projectPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\uchospital\\uchospital.csproj",
+      "packagesPath": "C:\\Users\\WeCanCodeIT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\uchospital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\LuisPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WeCanCodeIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

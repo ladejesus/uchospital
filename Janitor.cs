@@ -6,17 +6,20 @@ namespace uchospital
 {
     public class Janitor
     {
-        public int Salary {get; set;}
+        public int Salary { get; set; }
         public string Task { get; set; }
-    
+        public int Enumber { get; set; }
 
-        public Janitor(int salary, string task)
+        public Janitor(string task)
         {
-            Salary = salary;
+            Salary = 40000;
             Task = task;
+            Enumber = 444;
         }
 
-
+        bool sweeping = true;
+        
+        
 
     }
 

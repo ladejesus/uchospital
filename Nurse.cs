@@ -8,12 +8,14 @@ namespace uchospital
     {
         public int Salary { get; set; }
         public int Patients { get; set; }
+        public int Enumber { get; set; }
         public string Task { get; set; }
 
-        public Nurse(int salary, int patients, string task)
+        public Nurse(string task)
         {
-            Salary = salary;
-            Patients = patients;
+            Salary = 50000;
+            Enumber = 222;
+            Patients = 2;
             Task = task;
         }
 

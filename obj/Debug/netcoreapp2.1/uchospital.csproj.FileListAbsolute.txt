@@ -9,3 +9,9 @@ C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchos
 C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.AssemblyInfo.cs
 C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.dll
 C:\Users\LuisPC\source\repos\uchospital\uchospital\obj\Debug\netcoreapp2.1\uchospital.pdb
+C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.AssemblyInfoInputs.cache
+C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.AssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.dll
+C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.pdb

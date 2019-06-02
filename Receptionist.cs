@@ -7,11 +7,13 @@ namespace uchospital
     public class Receptionist
     {
         public int Salary { get; set; }
+        public int Enumber { get; set; }
         public string Task { get; set; }
 
-        public Receptionist(int salary, string task)
+        public Receptionist(string task)
         {
-            Salary = salary;
+            Salary = 45000;
+            Enumber = 333;
             Task = task;
         }
             

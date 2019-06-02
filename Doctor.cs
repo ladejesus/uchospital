@@ -4,18 +4,19 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Doctor:Employer
+    public class Doctor : Employee
     {
         public string Specialty { get; set; }
         public string Task { get; set; }
         public int Salary { get; set; }
+        public int Enumber { get; set; }
 
-        public Doctor(string specialty, string task, int salary)
+        public Doctor(string specialty, string task) : base (name)
         {
             Specialty = specialty;
             Task = task;
-            Salary = salary;
-
+            Salary = 90000;
+            Enumber = 111;
         }
 
 
