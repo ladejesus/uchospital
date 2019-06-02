@@ -4,17 +4,23 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Receptionist
+    public class Receptionist : Employee
     {
-        public int Salary { get; set; }
-        public string Task { get; set; }
+        public string Type { get; set; }
+        
 
-        public Receptionist(int salary, string task)
+        public Receptionist(string Type, string Name, int Enumber, string Salary) : base()
         {
-            Salary = salary;
-            Task = task;
+            Type = "Receptionist";
+            Name = "Joan";
+            Enumber = 33333;
+            Salary = "$45,000";
+            Specialty = "Answer Phone";
+
         }
-            
+        
+
+        
 
 
     }

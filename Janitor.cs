@@ -4,18 +4,21 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Janitor
+    public class Janitor : Employee
     {
-        public int Salary {get; set;}
-        public string Task { get; set; }
-    
-
-        public Janitor(int salary, string task)
+        public string Type { get; set;}
+        
+      
+        public Janitor(string Type, string Name, int Enumber, string Salary, string Specialty): base()
         {
-            Salary = salary;
-            Task = task;
-        }
+            Type = "Janitor";
+            Name = "Bob";
+            Enumber = 44444;
+            Salary = "$40,000";
+            Specialty = "Mopping Floors";
 
+        }
+        
 
 
     }

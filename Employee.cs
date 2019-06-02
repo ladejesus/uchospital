@@ -4,31 +4,33 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Employer
+    public abstract class Employee
     {
         public string Name { get; set; }
         public int Enumber { get; set; }
-        public int Salary { get; set; }
-
-        //Pay Method Pay()
-
-        public Employer(string name, int eNumber, int salary)
-        {
-            Name = name;
-            Enumber = eNumber;
-            Salary = salary;
-        }
-
-        public string ChooseEmployeeType()
-        {
-            Console.WriteLine("Pick and employee type from the following: Doctor, Nurse, Janitor or Receptionist");
-            return Console.ReadLine();
-        }
+        public string Salary { get; set; }
+        public string Specialty { get; set; }
+        public bool PaidOrNot { get; set;}
         
         
 
+
         
+            
+            
+       
+            
+
+
+
+
+
+
 
 
     }
+
+
+
+    
 }

@@ -3,10 +3,15 @@
 namespace uchospital
 {
     class Program
+        
     {
         static void Main(string[] args)
+
         {
-            Main menu = new menu()
+
+            Console.WriteLine("Welcome the the UC Hospital System!!");
+            Console.ReadLine();
+
         }
     }
 }
