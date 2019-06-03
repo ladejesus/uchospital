@@ -18,18 +18,22 @@ namespace uchospital
             Specialty = "Heart";
         }
 
+        public Doctor()
+        {
+        }
+
         public void DoctorMenu()
         {
             bool interacting = true;
             string interact = "";
-            DrawBlood blood = new DrawBlood
+            DrawBlood blood = new DrawBlood();
             do
             {
-                Console.WriteLine("You are in the Doctors menu.\n Press rnter to continue. ");
+                Console.WriteLine("You are in the Doctors menu.\n Press enter to continue. ");
                 Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Doctors Menu");
-                Console.WriteLine(" 1: Draw Blood\n 2: Perform Surgery\n 3: Back To Employee Menu");
+                Console.WriteLine(" 1: Draw Blood\n 2: Perform Heart Surgery\n 3: Back To Employee Menu");
                 interact = Console.ReadLine();
                 switch(interact)
                 {
@@ -37,11 +41,16 @@ namespace uchospital
                         blood.DrawingBlood();
                         break;
                     case "2":
-
+                        blood.PerformSurgery();
+                        break;
+                    case "3":
+                        interacting = false;
+                        break;
                         
                 }
 
             }
+            while (interacting);
 
 
             

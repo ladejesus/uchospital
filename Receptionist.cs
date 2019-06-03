@@ -7,7 +7,7 @@ namespace uchospital
     public class Receptionist : Employee
     {
         public string Type { get; set; }
-
+        public bool TalkingOnPhone { get; set; }
 
         public Receptionist(string Type, string Name, int Enumber, string Salary) : base()
         {
@@ -15,7 +15,7 @@ namespace uchospital
             Name = "Joan";
             Enumber = 333;           
             Salary = "$45,000";
-            
+            TalkingOnPhone = true;
         }
             
 

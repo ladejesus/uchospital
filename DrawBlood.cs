@@ -12,5 +12,13 @@ namespace uchospital
             Health -= 3;
             Console.WriteLine("You have drawn blood from the patient. ");
         }
+
+        public void PerformSurgery()
+        {
+            Health += 3;
+            Console.WriteLine("You have just performed open heart surgery.");
+        }
+
+
     }
 }

@@ -18,6 +18,38 @@ namespace uchospital
             Salary = "$50,000";
         }
 
+        public void NurseMenu()
+        {
+            bool interacting = true;
+            string interact = "";
+            DrawBlood blood = new DrawBlood();
+            do
+            {
+                Console.WriteLine("You are in the Nurses menu.\n Press enter to continue.");
+                Console.ReadLine();
+                Console.Clear();
+                Console.WriteLine("Nurses Menu");
+                Console.WriteLine(" 1: Draw Blood\n 2: Patients List\n 3: Exit To Employee Menu");
+                interact = Console.ReadLine();
+                switch (interact)
+                {
+                    case "1":
+                        blood.DrawingBlood();
+                        break;
+                    case "2":
+                        nurse.NumberOfPatients();
+                        break;
+                    case "3":
+                        interacting = false;
+                        break;
+                }
+            } while (interacting);
+        }
+            
+
+
+            
+
 
 
     }
