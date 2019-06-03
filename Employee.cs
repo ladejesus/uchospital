@@ -25,6 +25,15 @@ namespace uchospital
             employeeList.Add(receptionist);
             employeeList.Add(janitor);
         }
+
+        public void EmployeeInfo()
+        {
+            int employeeNumber = 1;
+            foreach (Employee employee in employeeList) ;
+            {
+                Console.WriteLine($"{employeeNumber}: Name: {worker.Name} ");
+            }
+        }
         
 
         public void GetMainMenu()

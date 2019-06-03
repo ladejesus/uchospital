@@ -29,7 +29,7 @@ namespace uchospital
                 Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Doctors Menu");
-                Console.WriteLine(" 1: Draw Blood\n 2: View Doctor Info\n 3: Back To Employee Menu");
+                Console.WriteLine(" 1: Draw Blood\n 2: Perform Surgery\n 3: Back To Employee Menu");
                 interact = Console.ReadLine();
                 switch(interact)
                 {
@@ -37,6 +37,7 @@ namespace uchospital
                         blood.DrawingBlood();
                         break;
                     case "2":
+
                         
                 }
 
