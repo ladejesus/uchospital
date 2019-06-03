@@ -6,6 +6,11 @@ namespace uchospital
 {
     public class Nurse : Employee
     {
+        private string v1;
+        private string v2;
+        private int v3;
+        private string v4;
+
         public string Type { get; set; }
         public int NumberOfPatients { get; set; }
 
@@ -18,11 +23,24 @@ namespace uchospital
             Salary = "$50,000";
         }
 
+        public Nurse()
+        {
+        }
+
+        public Nurse(string v1, string v2, int v3, string v4)
+        {
+            this.v1 = v1;
+            this.v2 = v2;
+            this.v3 = v3;
+            this.v4 = v4;
+        }
+
         public void NurseMenu()
         {
             bool interacting = true;
             string interact = "";
             DrawBlood blood = new DrawBlood();
+            Nurse nurse = new Nurse();
             do
             {
                 Console.WriteLine("You are in the Nurses menu.\n Press enter to continue.");
@@ -45,13 +63,8 @@ namespace uchospital
                 }
             } while (interacting);
         }
-            
 
-
-            
-
-
-
+      
     }
 
 

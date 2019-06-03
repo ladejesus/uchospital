@@ -17,8 +17,19 @@ namespace uchospital
             Salary = "$45,000";
             TalkingOnPhone = true;
         }
-            
 
+        public void AnsweringPhone()
+        {
+            this.TalkingOnPhone = true;
+        }
 
+        public void HangUpPhone()
+        {
+            this.TalkingOnPhone = false;
+        }
+
+        public Receptionist()
+        {
+        }
     }
 }

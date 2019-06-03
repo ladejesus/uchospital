@@ -31,17 +31,21 @@ namespace uchospital
             int employeeNumber = 1;
             foreach (Employee employee in employeeList) ;
             {
-                Console.WriteLine($"{employeeNumber}: Name: {worker.Name} ");
+                
             }
         }
         
 
         public void GetMainMenu()
         {
+            bool interacting = true;
             string menuChoice = "";
             Doctor doctor = new Doctor();
+            Nurse nurse = new Nurse();
+            Receptionist receptionist = new Receptionist();
+            Janitor janitor = new Janitor();
             do
-            { 
+            {
                 Console.WriteLine("Press enter to continue. ");
                 Console.ReadLine();
                 Console.Clear();
@@ -60,12 +64,25 @@ namespace uchospital
                                 doctor.DoctorMenu();
                                 break;
                             case "2":
-
+                                nurse.NurseMenu();
+                                break;
+                            case "3":
+                                receptionist.AnsweringPhone();
+                                receptionist.HangUpPhone();
+                                break;
+                            case "4":
+                                janitor.IsSweeping();
+                                janitor.NotSweeping();
+                                break;
+                            case "5":
+                                interacting = false;
+                                break;
                         }
+                        break;
 
 
                 }
-            }
+            } while (interacting);
         }
     
         

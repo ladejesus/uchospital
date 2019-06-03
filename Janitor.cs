@@ -17,8 +17,20 @@ namespace uchospital
             Salary = "$40,000";
             Sweeping = true;
         }
-        
-        
+
+        public Janitor()
+        {
+        }
+
+        public void IsSweeping()
+        {
+            this.Sweeping = true;
+        }
+
+        public void NotSweeping()
+        {
+            this.Sweeping = false;
+        }
         
 
     }
