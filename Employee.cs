@@ -7,23 +7,25 @@ namespace uchospital
     public class Employee
     {
         public string Name { get; set; }
+        public string Salary { get; set; }
+        public int Enumber { get; set; }
 
-        //Pay Method Pay()
 
-        public Employee(string name)
+        List<Employee> employeeList = new List<Employee>();
+
+        Doctor doctor = new Doctor("Doctor", "John", 111, "$90,000", "Heart Surgeon");
+        Nurse nurse = new Nurse("Nurse", "Betty", 222, "$50,000");
+        Receptionist receptionist = new Receptionist("Receptionist", "Joan", 333, "$45,000");
+        Janitor janitor = new Janitor("Janitor", "Bob", 444, "$40,000");
+
+        public void AddEmployeeList()
         {
-            Name = name;
-
+            employeeList.Add(doctor);
+            employeeList.Add(nurse);
+            employeeList.Add(receptionist);
+            employeeList.Add(janitor);
         }
-
-        public Employee()
-        {
-        }
-
-        public void Pay()
-        {
-
-        }
+        
 
         public void GetMainMenu()
         {

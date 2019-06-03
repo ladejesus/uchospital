@@ -4,17 +4,16 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Janitor
+    public class Janitor : Employee
     {
-        public int Salary { get; set; }
-        public string Task { get; set; }
-        public int Enumber { get; set; }
+        public string Type { get; set; }
 
-        public Janitor(string task)
+        public Janitor(string Type, string Name, int Enumber, string Salary) : base()
         {
-            Salary = 40000;
-            Task = task;
+            Type = "Janitor";
+            Name = "Bob";
             Enumber = 444;
+            Salary = "$40,000";
         }
 
         bool sweeping = true;

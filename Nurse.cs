@@ -4,19 +4,18 @@ using System.Text;
 
 namespace uchospital
 {
-    public class Nurse
+    public class Nurse : Employee
     {
-        public int Salary { get; set; }
-        public int Patients { get; set; }
-        public int Enumber { get; set; }
-        public string Task { get; set; }
+        public string Type { get; set; }
+        public int NumberOfPatients { get; set; }
 
-        public Nurse(string task)
+        public Nurse(string Type, int NumberOfPatients, string name, int Enumber, string Salary) : base()
         {
-            Salary = 50000;
+            Type = "Nurse";
+            NumberOfPatients = 2;
+            Name = "Betty";
             Enumber = 222;
-            Patients = 2;
-            Task = task;
+            Salary = "$50,000";
         }
 
 
