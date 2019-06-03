@@ -4,11 +4,13 @@ using System.Text;
 
 namespace uchospital
 {
-    class DrawBlood
+    class DrawBlood : Patient
     {
-        public void drawBlood()
+        public void DrawingBlood()
         {
-
+            BloodLevel -= 6;
+            Health -= 3;
+            Console.WriteLine("You have drawn blood from the patient. ");
         }
     }
 }

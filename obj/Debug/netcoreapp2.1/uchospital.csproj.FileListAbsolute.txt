@@ -15,3 +15,8 @@ C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.
 C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.AssemblyInfo.cs
 C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.dll
 C:\Users\WeCanCodeIT\source\repos\uchospital\obj\Debug\netcoreapp2.1\uchospital.pdb
+C:\Users\WeCanCodeIT\source\repos\uchospital\bin\Debug\netcoreapp2.1\uchospital.deps.json
+C:\Users\WeCanCodeIT\source\repos\uchospital\bin\Debug\netcoreapp2.1\uchospital.runtimeconfig.json
+C:\Users\WeCanCodeIT\source\repos\uchospital\bin\Debug\netcoreapp2.1\uchospital.runtimeconfig.dev.json
+C:\Users\WeCanCodeIT\source\repos\uchospital\bin\Debug\netcoreapp2.1\uchospital.dll
+C:\Users\WeCanCodeIT\source\repos\uchospital\bin\Debug\netcoreapp2.1\uchospital.pdb
